@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina de Tere</title>
+    <!-- Vincular el archivo CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de La Cocina de Tere" class="logo">
+        <h1>La Cocina de Tere</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="https://wa.me/3183613628">Cotizar Comida</a></li>
+                <li><a href="https://wa.me/3183613628">Asesoramiento por WhatsApp</a></li>
+            </ul>
+        </nav>
+        <button onclick="verMenu()">Ver Menú</button>
+    </header>
+    
+    <section id="inicio">
+        <div>
+            <h2>Bienvenidos a La Cocina de Tere</h2>
+            <p>¿En qué podemos ayudarte hoy?</p>
+            <button onclick="cotizarComida()">Cotizar Comida</button>
+            <button onclick="asesoramientoWhatsApp()">Asesoramiento por WhatsApp</button>
+        </div>
+    </section>
+    
+    <section id="menu">
+        <h2>Menú</h2>
+        <!-- Platos -->
+        <div class="plato">
+            <img src="plato1.jpg" alt="Plato 1">
+            <h3>Nombre del Plato 1</h3>
+            <p>Descripción del plato. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <span>$20</span>
+        </div>
+        <!-- Repetir este div para cada plato -->
+    </section>
+    
+    <section id="redes">
+        <h2>Redes Sociales</h2>
+        <p>Síguenos en nuestras redes sociales para estar al tanto de nuestras novedades y promociones:</p>
+        <!-- Inserta aquí tus enlaces a redes sociales -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 La Cocina de Tere</p>
+    </footer>
+
+    <!-- Vincular el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

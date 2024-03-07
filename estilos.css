@@ -1,0 +1,132 @@
+/* Estilos para la página web de La Cocina de Tere */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: transparent; /* Fondo transparente */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header .tapizado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('tapizado.png'); /* Ruta de la imagen del tapizado */
+    background-size: cover;
+    z-index: -1;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Texto negro */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #000000; /* Fondo negro */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #333333; /* Negro más oscuro */
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+.plato {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plato img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.plato h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.plato p {
+    color: #666;
+}
+
+.plato span {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #FFFFFF; /* Fondo blanco */
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Estilos para el logo */
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Fin de estilos */
